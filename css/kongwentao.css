@@ -1,0 +1,50 @@
+.huodo{
+    height: 230px;
+    background: url("../images/i_event.png") no-repeat center 0;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.huodo i{
+    border-bottom: 1px solid #bfc5c8;
+    position: relative;
+    display: block;
+    top:102px;
+}
+
+.huodo a{
+    display: block;
+    width: 732px;
+    margin: 0 auto;
+    height: 85px;
+    padding-top: 88px;
+    text-align: center;
+}
+
+.huodo a span{
+    border: 1px solid #fff;
+    border-radius:8px;
+    padding:0 10px 1px;
+    margin: 0 auto 30px;
+    font-size:20px;
+    background: #fff;
+    position: relative;
+}
+
+.huodo a:hover span{
+    background:#4a8c8a;
+    color: #fff;
+}
+
+.huodo a h2{
+    margin-top: 70px;
+    text-indent: -2000px;
+}
+.zuixin{
+    margin: 0 auto;
+    width: 1200px;
+}
+.zuixin ul li{
+    background-color: #000;
+    float: left;
+}

@@ -1,0 +1,115 @@
+/*顶部导航1开始*/
+.top-nav {
+    height: 30px;
+    background-color: #599695;
+}
+.top-nav .top-nav1-r ul{
+    margin-left: 794px;
+}
+.top-nav1-r ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.top-nav1-r ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.top-nav1-r .xt{
+    padding :0px 10px;
+}
+.top-nav1-r li img {
+    display: none;
+    /*top: 30px;*/
+    /*right: 300px;*/
+    position: absolute;
+}
+
+/*.top-nav1-r li ul li{*/
+    /*background-color: #aaa;*/
+    /*color: red;*/
+    /*height: 30px;*/
+    /*width: 40px;*/
+/*}*/
+/*.top-nav1-r > ul > li {*/
+    /*/!*float: left;*!/*/
+
+    /*/!*position: relative;*!/*/
+/*}*/
+
+
+
+    /*顶部导航1结束*/
+
+/*顶部导航2开始*/
+.top-nav2{
+    height: 129px;
+}
+.top-nav2-logo{
+    float: left;
+    height: 60px;
+    width: 416px;
+    margin-top: 35px;
+}
+.top-nav2-r ul li{
+    float: left;
+    height: 129px;
+    width: 112px;
+    overflow: hidden;
+}
+.top-nav2-r ul li a{
+    display: block;
+    height: 129px;
+    width: 112px;
+    background-color: #ff0000;
+}
+.top-nav2-r ul li a.n1{
+    background: url("../images/001.jpg") no-repeat 0 0;
+}
+.top-nav2-r ul li a.n2{
+    background: url("../images/002.jpg") no-repeat 0 0;
+}
+.top-nav2-r ul li a.n3{
+    background: url("../images/003.jpg") no-repeat 0 0;
+    /*background-position: ;*/
+}
+.top-nav2-r ul li a.n4{
+    background: url("../images/004.jpg") no-repeat 0 0;
+}
+.top-nav2-r ul li a.n5{
+    background: url("../images/005.jpg") no-repeat 0 0;
+}
+.top-nav2-r ul li a.n6{
+    background: url("../images/006.jpg") no-repeat 0 0;
+}
+.top-nav2-r ul li a.n7{
+    background: url("../images/007.jpg") no-repeat 0 0;
+}
+
+/*顶部导航2结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

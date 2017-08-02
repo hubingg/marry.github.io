@@ -1,0 +1,179 @@
+body,div,ul,dl,dd,dt,input,img,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+input{
+    border: 0 none;
+    outline-style: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*初始化结束*/
+
+/*爱情海开始*/
+.loveSea{
+    width: 1200px;
+    height: 588px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*爱情海左边开始*/
+.loveSea-left{
+    /*width: 805px;*/
+    /*height: 605px;*/
+    width: 802px;
+    height: 589px;
+    float: left;
+}
+.loveSea-left li{
+    width: 385px;
+    height: 294px;
+    float: left;
+    border-left:1px solid #E5E5E5;
+    border-top:1px solid #E5E5E5;
+    margin-right: 15px;
+    margin-bottom: 4px;
+    background: url("../images/lobg.gif") bottom no-repeat;
+}
+.loveSea-left li a{
+    display: block;
+    width: 386px;
+    height: 290px;
+    padding: 4px 4px 0;
+    color:#333;
+}
+.loveSea-left li a:hover{
+    color:red;
+    background-color: #fbfbfb;
+}
+.loveSea-left li a img{
+    width: 378px;
+    height: 252px;
+}
+.loveSea-left li a img:hover{
+    -webkit-animation: mymove 1s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 1s infinite;
+}
+@-webkit-keyframes mymove {
+    50% {-webkit-transform: rotate(10deg);}
+}
+
+/*爱情海左边结束*/
+/*爱情海右边开始*/
+.loveSea-right{
+    /*width: 394px;*/
+    width: 387px;
+    height: 589px;
+    /*height: 594px;*/
+    float: right;
+    border-left:1px solid #E5E5E5;
+    background: url("../images/lobg.gif") bottom repeat-x;
+}
+.loveSea-right img{
+    /*width: 100%;*/
+    width: 387px;
+    height: 556px;
+}
+.loveSea-right a:hover{
+    opacity: 0.8;
+}
+.loveSea-right a span{
+    float: right;
+    color:#333;
+}
+/*爱情海结束*/
+/*白边*/
+.baibian{
+    width: 1200px;
+    height: 25px;
+    margin: 0 auto;
+    background: url("../images/baixian.gif") no-repeat;
+}
+/*首尔影城开始*/
+.shouer{
+    width: 1200px;
+    height: 588px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.shouer a{
+    color:#333;
+}
+/*首尔影城左边开始*/
+.shouer-left{
+    width: 394px;
+    height: 594px;
+    border-left:1px solid #E5E5E5;
+    background: url("../images/lobg.gif") bottom repeat-x;
+}
+.shouer-left img{
+    width: 387px;
+    height: 556px;
+}
+.shouer-left a:hover{
+    opacity: 0.8;
+}
+
+/*首尔影城左边结束*/
+/*首尔影城右边开始*/
+.shouer-right{
+    /*width: 805px;*/
+    /*height: 605px;*/
+    width: 802px;
+    height: 589px;
+    float: left;
+}
+.shouer-right li{
+    width: 385px;
+    height: 294px;
+    float: left;
+    border-left:1px solid #E5E5E5;
+    border-top:1px solid #E5E5E5;
+    margin-right: 15px;
+    margin-bottom: 4px;
+    background: url("../images/lobg.gif") bottom no-repeat;
+}
+.shouer-right li a{
+    display: block;
+    width: 386px;
+    height: 290px;
+    padding: 4px 4px 0;
+
+}
+.shouer-right li a:hover{
+    color:red;
+    background-color: #fbfbfb;
+
+}
+.shouer-right li a img{
+    width: 378px;
+    height: 252px;
+}
+.shouer-right li a img:hover{
+    -webkit-animation:img 3s linear;
+    animation:img 3s linear;
+}
+@-webkit-keyframes img{
+    0%{-webkit-transform:translate(10px,20px);}
+    100%{-webkit-transform:translate(-10px,-20px);}
+    /*18%{-webkit-transform:translate(0,-350px);}*/
+    /*35%{-webkit-transform:translate(200px,0);}*/
+    /*46%{-webkit-transform:translate(380px,-160px);}*/
+    /*60%{-webkit-transform:translate(250px,-350px);}*/
+    /*78%{-webkit-transform:translate(60px,0);}*/
+    /*100%{-webkit-transform:translate(0,0);}*/
+}
+
+/*首尔影城结束*/

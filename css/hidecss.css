@@ -1,0 +1,74 @@
+
+/*scrollNav部分*/
+.hiddenNav{
+    width: 100%;
+    height: 65px;
+    background-color: #8bcdcb;
+    position: fixed;
+    z-index: 99;
+    display: none;
+}
+.hiddenNav-c{
+    width: 1200px;
+    height: 65px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.hiddenNav-logo{
+    height: 65px;
+    width: 210px;
+    background: url("../images/logo.png") no-repeat center;
+}
+.hiddenNav-logo a{
+    display: block;
+    width: 210px;
+    height: 65px;
+    text-indent: -2000em;
+}
+.hiddenNav-nav{
+    display: block;
+    width: 792px;
+    height: 65px;
+    margin:0 10px;
+}
+.hiddenNav-nav a{
+    text-indent: -2000em;
+    display: block;
+    height: 65px;
+    width: 99px;
+    position: relative;
+    border-right:1px solid #7cbfbd;
+    float: left;
+}
+.hiddenNav-nav a:hover{
+    background-color: #90CFCD;
+}
+.hiddenNav-nav .a1{
+    background: url("../images/nav.png") no-repeat center 0;
+}
+.hiddenNav-nav .a2{
+    background: url("../images/nav.png") no-repeat center -65px;
+}
+.hiddenNav-nav .a3{
+    background: url("../images/nav.png") no-repeat center -130px;
+}
+.hiddenNav-nav .a4{
+    background: url("../images/nav.png") no-repeat center -195px;
+}
+.hiddenNav-nav .a5{
+    background: url("../images/nav.png") no-repeat center -260px;
+}
+.hiddenNav-nav .a6{
+    background: url("../images/nav.png") no-repeat center -325px;
+}
+.hiddenNav-nav .a7{
+    background: url("../images/nav.png") no-repeat center -390px;
+    border-right: 0;
+}
+
+.hiddenNav-slg{
+    height: 65px;
+    width: 178px;
+    background: url("../images/slg.png") no-repeat left center;
+}

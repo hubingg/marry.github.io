@@ -1,0 +1,50 @@
+.foot {
+    height: 211px;
+    background-color: #EEEEEE;
+    color: #ABABAB;
+    text-align: center;
+}
+.foot span {
+    margin-top: 25px;
+}
+.foot span:first-child,.foot span:first-child a  {
+    display: inline-block;
+    color: #ABABAB;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.foot span a:hover {
+    color: #62a7a5;
+}
+.foot .dz {
+    margin-top: 10px;
+}
+.dz p a {
+    color: #ABABAB;
+}
+.dz p {
+    margin-bottom: 5px;
+}
+.dz p a:hover {
+    color: #62a7a5;
+}
+.friendlink {
+    width: 1180px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: left;
+}
+.friendlink a {
+    color: #ABABAB;
+}
+.friendlink a:hover {
+    color: #62a7a5;
+}
+.friendlink span {
+    padding: 0 8px;
+    color: #A98A9F;
+}
+.friendlink .jhlink {
+    color: #ABABAB;
+}

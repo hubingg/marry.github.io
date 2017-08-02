@@ -1,0 +1,270 @@
+/*客片分享*/
+
+/*头部 －－－ 可作为公共类 可需要替换图片*/
+.loveShow-head{
+    height: 230px;
+    background: url("../images/i_love.png") no-repeat center 0;
+    margin-bottom: 10px;
+    position: relative;
+}
+.spefirst{
+    background: url("../images/i_works.png") no-repeat center 0;
+}
+.spcsecond{
+    background: url("../images/i_work.png") no-repeat center 0;
+}
+.loveShow-head i{
+    border-bottom: 1px solid #bfc5c8;
+    position: relative;
+    display: block;
+    top:102px;
+}
+
+.loveShow-head a{
+    display: block;
+    width: 732px;
+    margin: 0 auto;
+    height: 85px;
+    padding-top: 88px;
+    text-align: center;
+}
+
+.loveShow-head a span{
+    border: 1px solid #fff;
+    border-radius:8px;
+    padding:0 10px 1px;
+    margin: 0 auto 30px;
+    font-size:20px;
+    background: #fff;
+    position: relative;
+}
+
+.loveShow-head a:hover span{
+    background:#4a8c8a;
+    color: #fff;
+}
+
+.loveShow-head a h2{
+    margin-top: 70px;
+    text-indent: -2000px;
+}
+
+/*查看更多*/
+.loveShow-head .more{
+    position:relative;
+}
+
+.loveShow-head .more a{
+    padding:0;
+    width: 110px;
+    height: 23px;
+    background: url("../images/i_h_more.png") no-repeat left top;
+    text-indent: -2500px;
+    position: absolute;
+    right:0;
+    top:-165px;
+}
+
+.loveShow-head .more a:hover{
+    background: url("../images/i_h_more.png") no-repeat left bottom;
+}
+
+/*loveShow图片展示区*/
+.loveShow-image{
+    overflow: hidden;
+    height: 464px;
+    position: relative;
+}
+
+.loveShow-image ul{
+    width: 4017px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.loveShow-image ul li{
+    float: left;
+    padding: 0 5px;
+}
+
+.loveShow-image ul li a{
+    display: block;
+    position: relative;
+    height: 450px;
+    width: 285px;
+    border: 1px solid #e5e5e5;
+    padding:6px;
+    overflow: hidden;
+}
+
+.loveShow-image ul li a img{
+    width: 285px;
+    height: 450px;
+}
+
+.loveShow-image ul li a .png{
+    display:none;
+    width: 285px;
+    height: 79px;
+    background: url("../images/works_list_li.png") no-repeat;
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    z-index: 2;
+}
+
+.loveShow-image ul li a .png b{
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 50px;
+    color: #fff;
+    font-family: "微软雅黑";
+    font-weight: normal;
+}
+
+/*白线*/
+.baixian{
+    height: 25px;
+    display: block;
+    background: url("../images/baixian.gif") no-repeat;
+}
+
+
+/*店内展示*/
+
+/*storeShow头部 */
+.storeShow-head{
+    height: 230px;
+    margin-bottom: 10px;
+    background: url("../images/i_scene.png") no-repeat center 0;
+}
+
+.storeShow-head i{
+    border-bottom: 1px solid #bfc5c8;
+    position: relative;
+    display: block;
+    top:102px;
+}
+
+.storeShow-head a{
+    display: block;
+    width: 732px;
+    margin: 0 auto;
+    height: 85px;
+    padding-top: 88px;
+    text-align: center;
+}
+
+.storeShow-head a span{
+    border: 1px solid #fff;
+    border-radius:8px;
+    padding:0 10px 1px;
+    margin: 0 auto 30px;
+    font-size:20px;
+    background: #fff;
+    position: relative;
+}
+
+.storeShow-head a:hover span{
+    background:#4a8c8a;
+    color: #fff;
+}
+
+.storeShow-head a h2{
+    margin-top: 70px;
+    text-indent: -2000px;
+}
+
+/*查看更多*/
+.storeShow-head .more{
+    position:relative;
+}
+
+.storeShow-head .more a{
+    padding:0;
+    width: 110px;
+    height: 23px;
+    background: url("../images/i_h_more.png") no-repeat left top;
+    text-indent: -2500px;
+    position: absolute;
+    right:0;
+    top:-165px;
+}
+
+.storeShow-head .more a:hover{
+    background: url("../images/i_h_more.png") no-repeat left bottom;
+}
+
+/*storeShow图片展示区*/
+.storeShow-image{
+    height: 595px;
+    position: relative;
+}
+
+.storeShow-image .bannpic{
+    height: 533px;
+    position: relative;
+    overflow: hidden;
+}
+
+.storeShow-image .bannpic li{
+    text-align: center;
+}
+
+.storeShow-image .bannpic li img{
+    height: 533px;
+    width: 1200px;
+}
+
+.storeShow-image a{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    top: 215px;
+    opacity: 0;
+}
+
+.storeShow-image a:hover{
+    opacity: 0.7;
+}
+
+.storeShow-image .prev{
+    background: url("../images/btn2.png") no-repeat left center;
+    left: 0;
+}
+
+.storeShow-image .next{
+    background: url("../images/btn2.png") no-repeat right center;
+    right: 0;
+}
+
+.storeShow-image .num{
+    position: absolute;
+    bottom: 12px;
+    left:45%;
+}
+
+.storeShow-image .num li{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 25px;
+    color: #fff;
+    background: #444;
+    margin-right: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

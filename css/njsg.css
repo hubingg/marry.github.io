@@ -1,0 +1,90 @@
+
+/*爱上诺江拾光的理由*/
+.loveMe{
+    height: 194px;
+    width:100%;
+    background-color: #599695;
+    text-align: center;
+}
+.loveMe a{
+    background: url("../images/loveme.jpg") no-repeat;
+    width: 1227px;
+    height: 194px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*联系方式,电话/qq/微博/微信*/
+.contact{
+    width:100%;
+    background-color: #e7ffff;
+    height: 125px;
+}
+.contact-c{
+    margin: 0 auto;
+    text-align: center;
+    width: 1180px;
+    height: 123px;
+    overflow: hidden;
+}
+.mob{
+    background: url("../images/mob.jpg") no-repeat;
+    padding-left: 450px;
+    padding-top: 123px;
+}
+.qq{
+    background: url("../images/qq.jpg") no-repeat;
+    padding-left: 264px;
+    padding-top: 123px;
+}
+.weibo{
+    background: url("../images/f_weibo.jpg") no-repeat;
+    padding-left: 258px;
+    padding-top: 123px;
+}
+.weixin{
+    background: url("../images/f_weixin.jpg") no-repeat;
+    padding-left: 193px;
+    padding-top: 123px;
+}
+
+/*资讯列表部分*/
+.information{
+    background-color: #98c5c4;
+    width:100%;
+    height: 270px;
+}
+.information-c{
+    width: 1005px;
+    margin: 0 auto;
+    overflow: hidden;
+    height:auto;
+    display: block;
+}
+.information-c dl{
+    width: 176px;
+    margin-left: 25px;
+    margin-top: 45px;
+}
+.information-c dl dt{
+    height: 46px;
+    width: 176px;
+    overflow: hidden;
+}
+.information-c dl dd{
+    height: 25px;
+    border-bottom:1px dashed #666666;
+    line-height: 25px;
+}
+.information-c dl dd a{
+    font-size: 11px;
+    font-family: "微软雅黑";
+    text-transform: uppercase;
+}
+.information-c dl dd a:hover{
+    color: #498b89;
+
+}
+.information-c dl dd a span{
+    padding-left: 15px;
+}
